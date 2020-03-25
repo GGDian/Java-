@@ -84,6 +84,8 @@ prosume：检查 Accept。客户端接收的数据类型
 
 ### @DispatcherServlet
 
+![image-20200309125212584](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200309125212584.png)
+
 ```java
 //检查文件是否上传请求
 processedRequest = this.checkMultipart(request);

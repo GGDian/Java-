@@ -171,6 +171,8 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
 * 使用Spring提供的 FactoryBean（工厂Bean）;
   * 默认获取到的是工厂bean调用getObject创建的对象
   * 要获取工厂Bean本身，我们需要给id前面加一个&
+* 即容器中有两个对象
+* ![image-20200321150850773](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200321150850773.png)
 
 ```
 public class ColorFactoryBean implements FactoryBean<Color> 
