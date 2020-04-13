@@ -1,5 +1,11 @@
 ### Nacos
 
+![image-20200405152516942](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200405152516942.png)
+
+![image-20200404140253933](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200404140253933.png)
+
+
+
 nacos 自带负载均衡，支持 AP 和 CP 切换
 
 * pom
@@ -57,8 +63,8 @@ nacos 自带负载均衡，支持 AP 和 CP 切换
         config:
         	server-addr: localhost:8848 #Nacos 作为配置中心地址
         	file-extension: yaml  #指定yaml格式的配置
-        	group:分组名
-        	namespace:命名空间id
+        	group: 分组名
+        	namespace: 命名空间id
   ```
 
   
@@ -81,3 +87,4 @@ nacos 自带负载均衡，支持 AP 和 CP 切换
 
 ![image-20200330142854306](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200330142854306.png)
 
+![image-20200405195107115](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200405195107115.png)
