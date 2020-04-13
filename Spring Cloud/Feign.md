@@ -2,6 +2,10 @@ yml![image-20200328161557082](C:\Users\垫\AppData\Roaming\Typora\typora-user-im
 
 ![image-20200328161927355](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200328161927355.png)
 
+
+
+#### HTTP 客户端
+
 #### 步骤
 
 * pom文件
@@ -13,7 +17,9 @@ yml![image-20200328161557082](C:\Users\垫\AppData\Roaming\Typora\typora-user-im
         </dependency>
 ```
 
-* 主启动类开启 @EnableFeignClients
+* 主启动类开启 @EnableFeignClients（basePackages = "包路径"）
+
+  * 比如 basePackages = "com.atguigu.gulimall.merber.feign"
 
 * service层写接口；方法的签名要与服务端的一致
 
