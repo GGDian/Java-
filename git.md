@@ -115,3 +115,11 @@ filename:文件名
 第三种，三个分别合上去
 
 ![image-20200229203451261](C:\Users\垫\AppData\Roaming\Typora\typora-user-images\image-20200229203451261.png)
+
+
+
+
+
+git拒绝合并无关的历史，解决方法是在 git pull 时加上–allow-unrelated-histories，
+
+git pull origin master --allow-unrelated-histories
