@@ -32,3 +32,8 @@ nohup sh bin/mqbroker -n 59.110.64.180:9876 -c conf/broker.conf autoCreateTopicE
 nohup ./bin/mqnamesrv -n 59.110.64.180:9876 &
 ```
 
+
+
+查看某个端口是否开启中：
+
+netstat -anlp | grep 8161
