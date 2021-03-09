@@ -36,3 +36,19 @@ $ git reset ORIG_HEAD --hard
 
 
 
+### 使用 merge 合并发生冲突
+
+修改冲突的地方，再调用 **git add ，git commit** 完成操作
+
+### 使用 rebase 的合并造成冲突
+
+修改冲突的地方，调用 **git add** 加回暂存区，接着继续完成中断的 rebase，**git rebase --continue**
+
+如果是像图片资源这类无法定位到具体某一行的冲突， 
+
+```
+git checkout --ours cute_animal.jpg
+git checkout --theirs cute_animal.jpg
+```
+
+再和之前一样，加到暂存区，进行 commit
